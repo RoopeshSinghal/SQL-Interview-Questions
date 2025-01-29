@@ -1,0 +1,42 @@
+## SQL Interview Question 1
+
+### Problem Statement
+
+You are given a table named Sample with the following schema:
+
+| Column  | Data Type | Description              |
+|---------|-----------|--------------------------|
+| ID      | INT       | A unique identifier      |
+| Letter  | INT       | String containing a word |
+
+Your task is to write an SQL query to transform the table such that:
+
+1. If the first letter of the word is in lowercase, it should be converted to uppercase.
+2. If the first letter of the word is in uppercase, it should be converted to lowercase.
+3. The rest of the letters in the word should remain unchanged.
+
+### Schema setup
+
+```sql
+CREATE TABLE sample (
+  ID INTEGER,
+  Letter Varchar(15)
+);
+INSERT INTO sample VALUES (1, 'apple');
+INSERT INTO sample VALUES (2, 'Mango');
+INSERT INTO sample VALUES (3, 'banana');
+INSERT INTO sample VALUES (2, 'orange');
+INSERT INTO sample VALUES (2, 'Grapes');
+```
+
+### Solution
+
+```sql
+SELECT
+    ID,
+    CASE
+     WHEN BINARY LEFT(Letter,1) = BINARY UPPER(LEFT(Letter,1)) THEN CONCAT(LOWER(LEFT(Letter,1)),'',SUBSTR(Letter,2))
+     ELSE CONCAT(UPPER(LEFT(Letter,1)),'',SUBSTR(Letter,2))
+    END as a
+FROM sample;
+```sql

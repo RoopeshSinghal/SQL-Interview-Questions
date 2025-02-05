@@ -64,6 +64,7 @@ Below are the exercises along with their solutions:
 ## Contributing
 If you have additional exercises or solutions, feel free to contribute by creating a pull request. Let's make this a comprehensive resource for Excel learners!
 
-Credit: Wise Owl Training
+**Credit**: Wise Owl Training
+[Website](https://www.wiseowl.co.uk/)
 
 Happy Learning! 🚀

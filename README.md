@@ -1,10 +1,13 @@
-# SQL-Interview-Questions
+# SQL Interview Questions Repository
 
-This repository contains daily SQL interview questions that I solve and upload to enhance problem-solving skills and prepare for data analyst interviews. 
+This repository contains SQL interview questions designed to enhance problem-solving skills and prepare for data analyst interviews. Each question is presented with its solution hidden under a dropdown menu—solve the question first, then check the solution!
 
-📌 Structure
+## 📌 Structure
 
-- Each day, two SQL questions are solved and added.
-- The questions are taken from various YouTube channels, and I don't own any of the questions. 
+- New SQL questions are added regularly.
+- The questions are sourced from various YouTube channels (I don’t own any of the questions).
+- Solutions are provided under dropdowns—try solving each question before revealing the answer!
 
-Solve each question to crack your interview!
+> **Solution**: Expand the dropdown below each question to view the solution after attempting it yourself.
+
+Happy coding, and best of luck cracking your SQL interviews!

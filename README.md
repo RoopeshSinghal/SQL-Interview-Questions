@@ -4,9 +4,8 @@ This repository contains SQL interview questions designed to enhance problem-sol
 
 ## 📌 Structure
 
-- New SQL questions are added regularly.
+- New SQL questions are added frequently.
 - The questions are sourced from various YouTube channels (I don’t own any of the questions).
-- Solutions are provided under dropdowns—try solving each question before revealing the answer!
 
 > **Solution**: Expand the dropdown below each question to view the solution after attempting it yourself.
 
